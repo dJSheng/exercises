@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blogin</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<div class="top">
+			<div class="w">
+				<div class="fl">
+					<div class="logo"></div>
+					<a  class="notifications" href="#" >
+						<span >
+							My Notifications
+						</span>
+						<i>8</i>
+					</a>
+				</div>
+				<ul class="fr">
+					<li>
+						<div class="user">
+						</div>
+						<a href="#"><span>My Account
+						<i class="topDown"></i></li></span></a>
+					<li>
+						<a  class="invites" href="#" >
+							<span >
+								Invites
+							</span>
+							<i>2</i>
+					    </a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+
+		<nav>
+			<div class="w">
+				<ul class="fr">
+					<li class="new_project">
+						<a href="#">
+							<i class="jia"></i> 
+							<span>New project</span>
+						</a>
+					</li>
+					<li class="recent_projects">
+						<a href="#">
+							<i class="files"></i>
+							<span>Recent Projects</span>
+							<i class="arrow"></i>
+					    </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>	
+		<div class="w mainBox">
+			<div class="l-sidebar clearfix">
+					
+				
+				<a class="started" href="#">
+					<i class="cloud"></i> 
+					<span>Let’s get started</span>
+				</a>
+				<dl class="general">
+					<dt class="general_title">GENERAL</dt>
+					<dd class="dd_now"><i class="meter"></i>Dashboard / Projects</dd>
+					<dd><i class="mails"></i>Messaging<em class="mails_i">20</em></dd>
+					<dd><i class="calculator"></i>Billing</dd>
+				</dl>
+				<dl class="help">
+
+					<dt class="help_title">
+						24/7 Help
+					</dt>
+					<dd class="help_phone">
+						<i class="call"></i>
+						<p class="help_time">Call us any time</p>
+						<p class="help_num">(111) 123-4567</p>
+					</dd>
+					<dd class="help_new">
+						<i class="news"></i>
+						Learning Center
+					</dd>
+					<dd class="help_btn">
+						<a class="btn" href="#">
+							<i class="mail"></i>Project manager</a>
+					</dd>
+				</dl>
+				<dl class="users">
+					<dt class="users_title">USERS (4)</dt>
+					<dd>
+						<span class="online1"></span>
+						<i class="user1"></i>
+					    <span class="users_name">Jawad S</span>
+					    <span class="users_post">
+					    	<i class="users_tie"></i>
+					        UI Designer
+					    </span>
+					</dd>
+					<dd>
+						<span class="online2"></span>
+						<i class="user2"></i>
+					    <span class="users_name">Edy W.</span>
+					    <span class="users_post">
+					    	<i class="users_tie"></i>
+					        UI Designer
+					    </span>
+					</dd>
+					<dd>
+						<span class="online3"></span>
+						<i class="user3"></i>
+					    <span class="users_name">Qamar Loop</span>
+					    <span class="users_post">
+					    	<i class="users_tie"></i>
+					        Front-end developer
+					    </span>
+					</dd>
+					<dd>
+						<span class="online4"></span>
+						<i class="user4"></i>
+					    <span class="users_name">Bilal Siddique</span>
+					    <span class="users_post">
+					    	<i class="users_tie"></i>
+					        Ruby Developer
+					    </span>
+					</dd>
+				</dl>
+			</div>
+			<div class="r_charts clearfix">
+				<div class="main_chart">
+					<div class="line_chart" id="line_chart"></div>
+					<div class="pieCharts">
+						<div class="onePie" id="onePie"></div>
+						<div class="twoPie" id="twoPie"></div>
+						<div class="therePie" id="therePie"></div>
+					</div>
+				</div>
+				<ul class="histogram">
+					<li class="l_histogram" id="l_histogram"></li>
+					<li class="r_histogram" id="r_histogram"></li>
+				</ul>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/index.js"></script>
