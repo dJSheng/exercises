@@ -1,12 +1,14 @@
-.top{
+.top {
 	background-color: #ffffff;
     height: 100px;
     padding: 30px;
     box-sizing: border-box;
     margin-bottom: 70px;
     display: flex;
+    overflow:hidden;
 }
-.logo{
+
+.logo {
 	float: left;
 	width: 105px;
 	height: 30px;
@@ -17,17 +19,21 @@
 	text-align: center;
 	background-color: #f92525;
 }
+
 .top .fr ul {
 	flex: 1;
 }
-.top .fr ul li{
+
+.top .fr ul li {
 	float: right;
 }
-.top .fr ul li img{
+
+.top .fr ul li img {
 	margin-left: 20px;
 	margin-top: 12px;
 }
-.logout{
+
+.logout {
 	float: right;
 	width: 110px;
 	height: 40px;
@@ -40,32 +46,35 @@
 	margin-left: 38px;
 	border-radius: 2px;
 }
-.nav-header{
-	height: 100px;
 
+.nav-header {
+	height: 100px;
 }
-.big-title{
+
+.big-title {
 	display: inline-block;
 	height: 38px;
 	font-family: Raleway-Regular;
 	font-size: 30px;
 	color: #262b2e;
 }
-.small-title{
+
+.small-title {
 	font-family: OpenSans;
 	font-size: 15px;
 	color: #262b2e;
 	opacity: 0.7;
 }
-.nav_bar{
+
+.nav_bar {
 	margin-top: 25px;
-
 }
-.nav_bar li{
+
+.nav_bar li {
 	float: right;
-
 }
-.nav_bar li a{
+
+.nav_bar li a {
 	display: inline-block;
 	height: 30px;
 	font-weight: 700;
@@ -74,7 +83,8 @@
 	color: #262b2e;
 	margin-left: 34px;
 }
-.nav_bar li span{
+
+.nav_bar li span {
 	position: relative;
 	top:10px;
 	left: 0;
@@ -82,44 +92,48 @@
 	width: 0%;
 	transition: border,width .5s;
 	border-bottom:0px solid #fff;
-
 }
 
-.nav_bar li:hover span{
+.nav_bar li:hover span {
 	width: 100%;
 	border-bottom:3px solid #ccc;
 }
-.content{
+
+.content {
 	height: 308px;
 }
+
 .banner {
 	width: 560px;
 	height: 288px;
 	background-color: #fff;
 	padding: 10px;
 	box-sizing: border-box;
-	}
+}
+
 .box {
 	width: 539px;
 	height: 267px;
 	position: relative;
 }
-.banner  .box ul li {
-           position: absolute;
-           display: none;
-       }
 
-.banner  .box ul li:first-child {
+.banner  .box ul li  {
+     position: absolute;
+     display: none;
+ }
+
+.banner  .box ul li:first-child  {
     display: block;
 }
 
-.banner .box ol {
+.banner .box ol  {
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    }
-.banner .box ol li{
+}
+
+.banner .box ol li {
      float: left;
      width:8px;
      height: 10px;
@@ -127,21 +141,24 @@
      margin-right: 5px;
      cursor: pointer;
      line-height: 10PX;
-    }
-.box ol li.current{
+}
+
+.box ol li.current {
      background-color: #fff;
-    }
+}
+
 
 .box .arrow {
      display: none;
-    
-    }
+}
 
-.box:hover .arrow {
+
+.box:hover .arrow  {
     display: block;
    
    }
-.box .arrow span{
+
+.box .arrow span {
      width: 30px;
      height: 60px;
      line-height: 60px;
@@ -155,29 +172,35 @@
      top: 50%;
      transform: translateY(-50%);
      z-index: 11;
-    }
-.box .arrow span.prev{
+}
+
+.box .arrow span.prev {
      left: 0;
  }
-.box .arrow span.next{
+
+.box .arrow span.next {
      right: 0;
  }
+
 span.prev:hover,
 span.next:hover {
      background-color: rgba(0, 0, 0, .5);
      z-index: 99;
- }
+}
 
-.support{
+
+.support {
 	width: 560px;
 	height: 288px;
 	background-color: #fff;
  }
-.support-hd{
+
+.support-hd {
 	height: 110px;
 	border-bottom: 1px solid #efeff0;
  }
-.support-hd span{
+
+.support-hd span {
 	float: left;
 	font-family: OpenSans;
 	font-size: 18px;
@@ -187,7 +210,8 @@ span.next:hover {
 	color: #262b2e;
 	margin:50px 0 0 50px;
 }
-.support-hd a{
+
+.support-hd a {
 	float: right;
 	width: 95px;
 	height: 40px;
@@ -199,43 +223,49 @@ span.next:hover {
 	border: solid 2px #e9e9ea;
 	text-align: center;
 	margin: 40px 50px 0 0;
+	transition: all 0.5s;
 }
-.support-bd{
+
+.support-hd a:hover {
+	width: 120px;
+	color: #fff;
+	border-radius: 0;
+	background-color: #909294;
+}
+
+.support-bd {
 	height: 178px;
 	padding: 26px 50px 0 50px;
 	box-sizing: border-box;
 }
-.support-bd>ul>li{
+
+.support-bd>ul>li {
 	float: left;
 }
-.support-bd-title{
+
+.support-bd-title {
 	font-family: OpenSans-Bold;
 	font-size: 14px;
 	color: #262b2e;
 }
-.support-bd span{
+
+.support-bd span {
 	font-family: OpenSans;
 	font-size: 13px;
 	color: #262b2e;
 }
-.support-bd-time {
 
-}
-.support-bd-time li{
+.support-bd-time li {
 	height: 50px;
 	width: 103px;
 }
-.support-bd-user-name{
-	
-}
-.support-bd-user-name li{
+
+.support-bd-user-name li {
 	height: 50px;
 	width: 291px;
 }
-.support-bd-status{
-	
-}
-.support-bd-status em{
+
+.support-bd-status em {
 	display: inline-block;
 	height: 40px;
 	font-family: OpenSans-Bold;
@@ -243,7 +273,8 @@ span.next:hover {
 	color: #262b2e;
 	padding-left: 10px;
 }
-.support-bd-status i{
+
+.support-bd-status i {
 	display: inline-block;
 	width: 65px;
 	height: 30px;
@@ -256,44 +287,52 @@ span.next:hover {
 	border-radius: 2px;
 	margin-bottom: 20px;
 }
-.graph{
+
+.graph {
 	background-color: #fff;
 	width: 100%;
 	height: 349px;
 	margin-bottom: 10px;
 }
-.else-map{
+
+.else-map {
 	height: 377px;
 	margin-bottom: 52px;
 }
-.pie-chart{
+
+.pie-chart {
 	float: left;
 	width: 560px;
 	height: 377px;
 	background-color: #fff;
 }
-.bar-graph{
+
+.bar-graph {
 	float: right;
 	width: 560px;
 	height: 377px;
 	background-color: #fff;
 }
-.help{
+
+.help {
 	height: 250px;
 	background-color: #202124;
 	padding-top: 80px;
 	box-sizing: border-box;
 }
- .help-logo{
+
+ .help-logo {
  	float: left;
  	margin-right:76px; 
  }
- .help ul{
+
+ .help ul {
  	float: left;
  	width: 193px;
 
 }
-.help ul li{
+
+.help ul li {
 	height: 30px;
 	font-family: Raleway-Bold;
 	font-size: 13px;
@@ -303,23 +342,28 @@ span.next:hover {
 	letter-spacing: 0px;
 	color: #ffffff;
 }
-.help ul:nth-child(2){
+
+.help ul:nth-child(2) {
  	width: 178px;
 }
 
-.help ul:nth-child(3){
+
+.help ul:nth-child(3) {
  	width: 185px;
 }
 
-.help ul:nth-child(4){
+
+.help ul:nth-child(4) {
  	width: 170px;
 }
 
-.help ul:nth-child(5){
+
+.help ul:nth-child(5) {
  	width: 100px;
 }
 
-.bottom{
+
+.bottom {
 	height: 36px;
 	background-color: #1c1d20;
 }

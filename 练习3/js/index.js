@@ -114,7 +114,7 @@ line_chart.setOption({
                 yAxisIndex: 'none'
             },
             dataView: {
-                    readOnly: false,
+                    readOnly: true,
                     optionToContent: function(opt) {
                         var axisData = opt.xAxis[0].data;
                         var series = opt.series;

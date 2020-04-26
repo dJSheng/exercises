@@ -1,8 +1,9 @@
-.top{
+.top {
 	height: 70px;
 	background-color: #f7faff;
 }
-.logo{
+
+.logo {
 	float: left;
 	width: 115px;
 	height: 42px;
@@ -11,7 +12,8 @@
 	border-right: 1px  solid #d4e0ec;
 	margin:15px 20px 0 0 ;
 }
-.notifications,.invites{
+
+.notifications,.invites {
 	float: left;
 	font-family: SourceSansPro-Semibold;
 	font-size: 14px;
@@ -19,7 +21,7 @@
 	color: #667284;
 }
 
-.notifications i,.invites i {
+.notifications i,.invites i  {
 	display: inline-block;
 	margin-left: 8px;
 	width: 18px;
@@ -30,13 +32,14 @@
 	color: #fff;
 	border-radius: 9px;
 }
-.top .fr  li{
+
+.top .fr  li {
 	float:right;
 	line-height: 70px;
-
 }
 
-.top .fr  li .topDown{
+
+.top .fr  li .topDown {
 	display: inline-block;
 	width: 11px;
 	height: 5px;
@@ -45,11 +48,8 @@
 	vertical-align: middle;
 	margin-left: 14px;
 }
-.top .fr  li span{
 
-
-}
-.user{
+.user {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
@@ -61,15 +61,15 @@
    background: url("../images/user.png") no-repeat center center;
 
 }
-nav{
+
+nav {
 	height: 54px;
 	background-color: #22a4ff;
 	padding-top: 7px;
 	box-sizing: border-box;
-
 }
 
-.new_project{
+.new_project {
 	float: right;
 	line-height: 40px;
 	width: 130px;
@@ -81,7 +81,8 @@ nav{
 	text-align: center;
 	margin-left: 8px;
 }
-.new_project .jia{
+
+.new_project .jia {
 	display: inline-block;
 	width: 16px;
 	height: 22px;
@@ -89,12 +90,12 @@ nav{
 	vertical-align: middle;
 	margin-right: 7px;
 }
-.new_project span{
+
+.new_project span {
 	font-family: SourceSansPro-Bold;
 	font-size: 14px;
 	color: #ffffff;
 }
-
 
 .recent_projects {
 	float: right;
@@ -108,7 +109,7 @@ nav{
 	border: solid 1px rgba(255, 255, 255, 0.6);
 }
 
-.recent_projects .files{
+.recent_projects .files {
 	display: inline-block;
 	width: 16px;
 	height: 22px;
@@ -117,28 +118,32 @@ nav{
 	margin-right: 6px;
 }
 
-.recent_projects span{
+.recent_projects span {
 	font-family: SourceSansPro-Bold;
 	font-size: 14px;
 	color: #ffffff;
 }
 
-.recent_projects .arrow{
+.recent_projects .arrow {
 	display: inline-block;
 	width: 16px;
 	height: 8px;
 	background: url("../images/arrow.png") no-repeat;
 	margin-left: 6px;
 }
-.mainBox{
+
+.mainBox {
 	padding-top: 34px;
 
 }
-.l-sidebar{
+
+.l-sidebar {
 	width: 205px;
 	float: left;
+	overflow: hidden;
 }
-.started{
+
+.started {
 	display: inline-block;
 	width: 202px;
 	height: 40px;
@@ -151,21 +156,24 @@ nav{
 	border: solid 1px rgba(27, 184, 250, 0.6);
 	margin-bottom: 24px;
 }
-.started .cloud{
+
+.started .cloud {
 	display: inline-block;
 	width: 16px;
 	height: 12px;
 	background: url("../images/cloud.png") no-repeat;
 	margin-right: 7px;
 }
-.general_title{
+
+.general_title {
 	height: 34px;
 	font-family: SourceSansPro-Bold;
 	font-size: 14px;
 	font-weight: 700;
 	color: #c6d3df;
 }
-.general dd{
+
+.general dd {
 	padding-left: 8px;
 	font-family: SourceSansPro-Semibold;
 	font-size: 14px;
@@ -173,14 +181,15 @@ nav{
 	height: 36px;
 	line-height: 16px;
 }
-.general .dd_now{
+
+.general .dd_now {
 	color: #27bdff;
 }
 
 .general dd .meter,
 .general dd .mails,
 .general dd .calculator
-{
+ {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -188,13 +197,16 @@ nav{
     margin-right: 6px;
     vertical-align: top;
 }
-.general dd .mails{
+
+.general dd .mails {
 	background: url("../images/mails.png") no-repeat;
 }
-.general dd .calculator{
+
+.general dd .calculator {
 	background: url("../images/calculator.png") no-repeat;
 }
-.mails_i{
+
+.mails_i {
 	float: right;
 	display: inline-block;
 	margin-left: 8px;
@@ -206,7 +218,8 @@ nav{
 	color: #fff;
 	border-radius: 9px;
 }
-.help{
+
+.help {
 	margin-top: 12px;
 	width: 202px;
 	height: 195px;
@@ -215,7 +228,8 @@ nav{
 	border: solid 1px #dddddd;
 	margin-bottom: 30px;
 }
-.help_title{
+
+.help_title {
 	height: 40px;
 	font-family: SourceSansPro-Bold;
 	font-size: 18px;
@@ -224,7 +238,8 @@ nav{
 	color: #667284;
 	border-bottom: solid 1px #dddddd;
 }
-.help_phone{
+
+.help_phone {
 	height: 62px;
 	font-family: SourceSansPro-Bold;
 	font-size: 18px;
@@ -233,7 +248,8 @@ nav{
 	padding-left: 30px;
 	box-sizing: border-box;
 }
-.call{
+
+.call {
 	float: left;
 	width: 25px;
 	height: 25px;
@@ -241,20 +257,23 @@ nav{
     margin-right: 6px;
     margin-top: 9px;
 }
-.help_time{
+
+.help_time {
 	float: left;
 	font-family: SourceSansPro-Semibold;
 	font-size: 10px;
 	color: #667284;
 }
-.help_num{
+
+.help_num {
 	float: left;
 	display: inline-block;
 	font-family: SourceSansPro-Bold;
 	font-size: 16px;
 	color: #667284;
 }
-.help_new{
+
+.help_new {
 	height: 32px;
 	font-family: SourceSansPro-Bold;
 	font-size: 14px;
@@ -263,7 +282,8 @@ nav{
 	box-sizing: border-box;
 	
 }
-.news{
+
+.news {
     float: left;
 	width: 25px;
 	height: 16px;
@@ -271,11 +291,13 @@ nav{
 	margin-right: 6px;
 }
 
-.help_btn{
+
+.help_btn {
 	text-align: center;
 }
 
-.help_btn .btn{
+
+.help_btn .btn {
 	display: inline-block;
 	width: 170px;
 	height: 40px;
@@ -286,7 +308,8 @@ nav{
 	border-radius: 2px;
 	color: #ffffff;
 }
-.mail{
+
+.mail {
 	display: inline-block;
 	width: 25px;
 	height: 16px;
@@ -295,26 +318,23 @@ nav{
 	vertical-align: middle;
 }
 
-.users{
-
-}
-
-.users_title{
+.users_title {
 	height: 30px;
 	font-size: 14px;
 	font-weight: 700;
 	font-family: SourceSansPro-Bold;
 	color: #d8e3f0;
 }
-.users dd{
+
+.users dd {
 	height: 54px;
 	padding-right: 0px;
-
 }
+
 .online1,
 .online2,
 .online3,
-.online4{
+.online4 {
 	float: right;
 	width: 8px;
 	height: 8px;
@@ -323,36 +343,44 @@ nav{
 	margin-top: 10px;
 	margin-right: 20px;
 }
-.online2{
+
+.online2 {
 	background-color: #f8c050;
 }
+
 .online3,
-.online4{
+.online4 {
 	background-color: #f57c6c;
 }
+
 .users .user1,
 .users .user2,
 .users .user3,
-.users .user4{
+.users .user4 {
 	float: left;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
-.users .user1{
+
+.users .user1 {
 	background: url("../images/user1.png") no-repeat -7px -8px;
 }
-.users .user2{
+
+.users .user2 {
 	background: url("../images/user2.png") no-repeat -6px -4px;
 }
-.users .user3{
+
+.users .user3 {
 	background: url("../images/user3.png") no-repeat -15px -5px;
 }
-.users .user4{
+
+.users .user4 {
 	background: url("../images/user4.png") no-repeat -8px -13px;
 }
-.users_name {
+
+.users_name  {
 	display: block;
 	font-family: SourceSansPro-Semibold;
 	font-size: 11px;
@@ -360,22 +388,28 @@ nav{
 	height: 14px;
 }
 
-.users_post{
+.users_post {
 	display: block;
 	font-family: SourceSansPro-Semibold;
 	font-size: 9px;
 	color: #bbc7d7;
 }
-.users_tie{
+
+.users_tie {
 	display: inline-block;
 	width: 8px;
 	height: 10px;
 	background: url("../images/tie_profile.png") no-repeat;
 }
-.r_charts{
+
+.r_charts {
 	margin-bottom: 200px;
+	overflow: hidden;
+	float: right;
+	width: 970px;
 }
-.main_chart {
+
+.main_chart  {
 	float: right;
 	width: 937px;
 	height: 509px;
@@ -383,38 +417,46 @@ nav{
 	border: solid 1px #dddddd;
 	margin-bottom: 28px;
 }
-.line_chart{
+
+.line_chart {
 	height: 281px;
 	border-radius: 2px;
 	background-color: #fafcff;
 	border-bottom: solid 1px #dddddd;
 	box-sizing: border-box;
 }
-.pieCharts{
+
+.pieCharts {
 	width: 100%;
 	height:230px;
 	display: flex;
 	flex-direction:row;
 	text-align: center;
 }
-.onePie{
+
+.onePie {
 	flex: 1;
 	
 }
-.twoPie{
+
+.twoPie {
 	flex: 1;
 
 }
-.therePie{
+
+.therePie {
 	flex: 1;
 }
-.circle_chart{
+
+.circle_chart {
 	height: 230px;
 }
-.histogram{
+
+.histogram {
 	float: right;
 }
-.histogram li{
+
+.histogram li {
 	float: left;
 	width: 453px;
 	height: 241px;
@@ -423,23 +465,26 @@ nav{
 	border: solid 1px #dddddd;
 	box-sizing: border-box;
 }
-.r_histogram{
-	margin-left: 32px;
+
+.r_histogram {
+	margin-left: 33px;
 }
-.message{
+
+.message {
 	width: 283px;
 	height: 383px;
 	background-color: pink;
 	border: solid 1px #dddddd;
 	margin:0 auto;
 }
-.message_switch{
+
+.message_switch {
 	width: 285px;
 	height: 50px;
 	background-color: #5d697a;
-
 }
-.message_switch_title{
+
+.message_switch_title {
 	float: left;
 	font-family: SourceSansPro-Bold;
 	font-size: 14px;
@@ -447,6 +492,7 @@ nav{
 	margin-top: 18px;
 	margin-left: 12px;
 }
-.message_switch_img{
+
+.message_switch_img {
 	float: right;
 }

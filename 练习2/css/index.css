@@ -1,4 +1,4 @@
-.top{
+.top {
 	height: 32px;
 	background-color: #2e3a4b;
 	font-size: 12px;
@@ -6,48 +6,44 @@
 	line-height: 32px;
 	margin-bottom: 15px;
 }
-.top a{
+
+.top  a {
 	color: #a9aaab;
 }
-.top .left{
+
+.top .left {
 	margin-left: 54px;
-
 }
 
 
-.top .left ul li{
+.top .left ul li {
+	float: left;	
+}
+
+.top .left ul li img {
 	float: left;
-	
+	margin:9px 10px 0 ;	
 }
 
-.top .left ul li img{
-	float: left;
-	margin:9px 10px 0 ;
-	
-}
-.top .left ul li span{
+.top .left ul li span {
 	margin-left: 7px;
-	
 }
-.top .right{
+
+.top .right {
 	margin-left: 54px;
-
 }
 
 
-.top .right ul li{
-	float: right;
-
-	
+.top .right ul li {
+	float: right;	
 }
 
-.top .right ul li img{
+.top .right ul li img {
 	float: left;
 	margin:9px 10px 0 0;
-	
 }
-.top .right ul li .tel{
-	
+
+.top .right ul li .tel {
 	margin-right: 10px;
 }
 
@@ -55,47 +51,50 @@
 	margin: 0 15px;
 }
 
-.logo{
+.logo {
 	height: 50px;
 	margin-bottom: 12px;
 }
-.logoImg{
+
+.logoImg {
 	width: 150px;
 	height: 50px;
 	float: left;
 	background: url("../images/logo.png") no-repeat;
-	/*background-color: #75d8f1;*/
 	margin-left: 35px;
-}
-.logoList{
+} 
+
+.logoList {
 	line-height: 50px;
 	margin-right: 25px;
 	font-family: MicrosoftYaHei;
 	font-size: 14px;
-	letter-spacing: 0px;
-	
+	letter-spacing: 0px;	
 }
-.logoList  li{
+.logoList  li {
 	float: right;
 }
-.logoList  li a{
+
+.logoList  li a {
 	float: right;
 	color: #b0b0b0;
 }
-.logoList  li img{
+
+.logoList  li img {
 	margin: -4px 8px 0 30px;
 }
-.nav{
+
+.nav {
 	height: 42px;
 	line-height: 42px;
-
 }
-.nav ul li{
+
+.nav ul li {
 	float: left;
 	margin-right: 40px;
 	box-sizing: border-box;
 }
-.nav ul li a{
+.nav ul li a {
 	font-family: MicrosoftYaHei;
 	font-size: 18px;
 	font-weight: normal;
@@ -103,24 +102,26 @@
 	letter-spacing: 0px;
 	color: #575757;
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
 	color: #ccc;
 }
-.navm{
+
+.navm {
 	height: 480px;
 	float: left;
 }
-.nav .navm li{
+
+.nav .navm li {
 	float: none;
 	margin-right: 0px;
-
 }
-.nav .pd{
+
+.nav .pd {
 	position: relative;
-
 }
-.nav ul li  .navm .service{
 
+.nav ul li  .navm .service{
 	text-align: center;
 	width: 260px;
 	height: 40px;
@@ -132,8 +133,8 @@
 	background-color: #34b3e0;
 	margin-top: 1px;
 }
-.nav .navm li a{
-	
+
+.nav .navm li a {
 	display: block;
 	width: 260px;
 	height: 88px;
@@ -147,15 +148,17 @@
 	border-bottom: 1px solid #8b94ad;
 	box-sizing: border-box;	
 }
-.nav .navm li a:hover{
+
+.nav .navm li a:hover {
 	background-color: rgba(0,0,0,0.7);
 	color: #f1521a;
 }
-.nav .navm li:hover div{
+
+.nav .navm li:hover div {
 	display: block;
 }
 
-.service_content{
+.service_content {
 	position: absolute;
     background-color: rgba(0,0,0,0.7);
 	top:41px;
@@ -167,31 +170,34 @@
 	color: green;
 	display: none;
 }
-.nav .last{
+.nav .last {
 	border-bottom:none;
 	box-sizing: border-box;	
 }
 
-.nav .navm li a span{
+.nav .navm li a span {
 	float: right;	
 }
-.banner{
+
+.banner {
 	height: 440px;
 	background: url("../images/banner.png") no-repeat;
 	background-size:100% 100%;
 }
-.ourService{
+
+.ourService {
 	height: 488px;
-	background-color:#f5f5f5;
-		
+	background-color:#f5f5f5;	
 }
+
 .serviceBox:hover {
 	-webkit-box-shadow: 0 30px 30px rgba(0,0,0,0.1);
     box-shadow: 0 30px 30px rgba(0,0,0,0.1);
     -webkit-transform: translate3d(0, -5px, 0);
     transform: translate3d(0, -5px, 0);
 }
-.serviceTitle{
+
+.serviceTitle {
 	height: 114px;
 	line-height: 114px;
 	font-family: MicrosoftYaHei-Bold;
@@ -200,7 +206,8 @@
 	color: #575757;
 	text-align: center;
 }
-.serviceBox{
+
+.serviceBox {
 	width: 221px;
 	height: 312px;
 	background-color: #ffffff;
@@ -209,13 +216,13 @@
 	text-align: center;
 }
 
-
-.serviceBoxImg{
+.serviceBoxImg {
 	margin-top: 29px;
 	margin-bottom: 16px;
 
 }
-.serviceBox li i{
+
+.serviceBox li i {
 	display: block;
 	font-family: MicrosoftYaHei;
 	font-size: 18px;
@@ -223,16 +230,17 @@
 	color: #575757;
 	margin-bottom: 15px;
 }
-.serviceBox li span{
+
+.serviceBox li span {
 	display: block;
 	margin-bottom: 35px;
 	font-family: MicrosoftYaHei;
 	font-size: 12px;
 	letter-spacing: 0px;
 	color: #b0b0b0;
-
 }
-.serviceBox li a{
+
+.serviceBox li a {
 	display: inline-block;
 	width: 101px;
 	height: 30px;
@@ -246,25 +254,26 @@
 	margin-bottom: 19px;
 }
 
-.serviceBox li em{
+.serviceBox li em {
 	font-family: MicrosoftYaHei;
 	font-size: 12px;
 	letter-spacing: 0px;
 	color: #b0b0b0;
 
 }
-.serviceBox li em s{
-	
+
+.serviceBox li em s {
 	color:#fd5a66;
 	font-weight: 700;
 
 }
-.ziXun{
+
+.ziXun {
 	height: 492px;
-	background-color: #ffffff;
-	
+	background-color: #ffffff;	
 }
-.ziXunTitle{
+
+.ziXunTitle {
 	height: 114px;
 	line-height: 114px;
 	font-family: MicrosoftYaHei-Bold;
@@ -274,15 +283,14 @@
 	text-align: center;
 }
 
-.ziXunContent{
+.ziXunContent {
 	float: left;
 	width: 282px;
 	height: 343px;	
 	border: 1px solid #ccc;
 	border-top: none;
 	margin-right: 12px;
-	overflow: hidden;
-		
+	overflow: hidden;	
 }
 
 .ziXunContent:hover {
@@ -294,9 +302,9 @@
 
 .ziXunImg:hover {
     transform: scale(1.1);
-
 }
-.ziXunContent span{
+
+.ziXunContent span {
 	display: block;
 	text-align: center;
 	font-family: MicrosoftYaHei;
@@ -306,20 +314,21 @@
 	margin-top: 18px;	
 	margin-bottom: 35px;
 }
-.ziXunContent .data{
+
+.ziXunContent .data {
 	float: left;
-	margin-left: 17px;
-		
+	margin-left: 17px;		
 }
-.ziXunImg{
+
+.ziXunImg {
 	width: 282px;
 	height: 236px;
 	background: url("../images/zi_xun.png") no-repeat;
 	background-size: 100% 100%;
 	overflow: hidden;
-
 }
-.ziXunContent .more{
+
+.ziXunContent .more {
 	float: right;
 	margin-right: 14px;
 	width: 66px;
@@ -331,9 +340,9 @@
 	letter-spacing: 0px;
 	color: #b0b0b0;
 	box-sizing: border-box;
-	border: 1px solid #ccc;
-		
+	border: 1px solid #ccc;	
 }
+
 .ziXunContent a {
     float: left;
 	height: 17px;
@@ -342,26 +351,27 @@
 	font-size: 12px;
 	letter-spacing: 1px;
 	color: #b0b0b0;
-	margin-left: 14px;
-		
+	margin-left: 14px;	
 }
-.ziXunDataImg{
+
+.ziXunDataImg {
 	float: left;
 	margin-right: 3px;
 	margin-top:2px;
-
 }
-.ziXunLast{
+
+.ziXunLast {
 	margin-right: 0px;
 }
-.liuChen{
+
+.liuChen {
 	height: 488px;
 	background-color: #f5f5f5;
 	padding-top: 47px;
 	box-sizing: border-box;
 }
 
-.liuChenTitle{
+.liuChenTitle {
 	margin-bottom: 59px;
 	font-family: MicrosoftYaHei-Bold;
 	font-size: 22px;
@@ -369,11 +379,13 @@
 	color: #575757;
 	text-align: center;
 }
-.tu{
+
+.tu {
 	position: relative;
 	height: 441px;
 }
-.liuChenLeft{
+
+.liuChenLeft {
 	position: absolute;
 	height: 30px;
 	width: 17px;
@@ -383,7 +395,7 @@
 	transform: translateY(-170%);
 	left: -50px;
 }
-.liuChenRight{
+.liuChenRight {
 	position: absolute;
 	height: 30px;
 	width: 17px;
@@ -393,30 +405,35 @@
 	transform: translateY(-170%);
 	right: -50px;
 }
-.current{
+
+.current {
 	border-color: #34b3e0;
 	color: #34b3e0;
 }
 
-.liuChenAllBox{
+.liuChenAllBox {
 	padding: 0 15px;
 	
 }
-.liuChenAllBox li{
+
+.liuChenAllBox li {
 	float: left;
 	margin-right: 33px;
 	width: 203px;
 }
-li.liuChenLast{
+
+li.liuChenLast {
 	margin-right: 0;
 }
-.liuChenBox{
+
+.liuChenBox {
 	width: 203px;
 	height: 203px;
 	text-align: center;
 
 }
-.liuChenImg{
+
+.liuChenImg {
 	width: 203px;
 	height: 203px;
 	background-color: #ffffff;
@@ -428,45 +445,45 @@ li.liuChenLast{
 	margin-bottom: 12px;
 }
 
-.liuChenBox span{
+.liuChenBox span {
 	display: inline-block;
 	height: 35px;
 	font-family: MicrosoftYaHei;
 	font-size: 18px;
-
 	margin: 0 auto;
 	text-align: center;
 }
-.liuChenBox  i{
+
+.liuChenBox  i {
 	display: inline-block;
 	font-family: MicrosoftYaHei;
 	font-size: 14px;
-	
 	text-align: center;
 }
-.why{
+
+.why {
 	height: 450px;
 	background: url("../images/why.png") no-repeat;
 	background-size: cover;
-	
 }
-.whyBox{
+
+.whyBox {
 	position: relative;
 	width: 1180px;
 	margin:0 auto;
 	overflow: hidden;
 	height: 450px;
-
 }
-.whySelect{
+
+.whySelect {
 	position: absolute;
 	text-align: center;
 	left: 0;
 	width: 400%;
 	height: 450px;
-
 }
-.whyYuanLeft,.whyYuanRight{
+
+.whyYuanLeft,.whyYuanRight {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -482,17 +499,18 @@ li.liuChenLast{
 	cursor: pointer;
 }
 
-.whyYuanRight{
+.whyYuanRight {
 	right: 0px;
 }
-.whyYuan{
+
+.whyYuan {
 	position: absolute;
 	left: 50%;
 	bottom: 20px;
 	transform: translateX(-50%);
-
 }
-.whyYuan li{
+
+.whyYuan li {
 	width: 11px;
 	height: 11px;
 	background-color: #423b3b;
@@ -500,16 +518,16 @@ li.liuChenLast{
 	border-radius: 50%;
 	margin-right: 17px;
 }
-ol li.current{
+
+ol li.current {
 	background-color: #ffffff;
 }
 
-
-.whySelect>li{
+.whySelect>li {
 	float: left;
 }
 
-.whyTitle{
+.whyTitle {
 	margin-top: 47px;
 	width: 1180px;
 	height: 84px;
@@ -517,12 +535,9 @@ ol li.current{
 	font-size: 22px;
 	letter-spacing: 1px;
 	color: #ffffff;
-	
 }
 
-
-
- .whyBeijin{
+.whyBeijin {
 	display: block;
 	margin-left: 211px;
 	width: 746px;
@@ -532,7 +547,7 @@ ol li.current{
 	padding: 18px 16px;
 }
 
-.whyYouDian{
+.whyYouDian {
 	width: 124px;
 	height: 124px;
 	border-radius: 50%;
@@ -544,16 +559,12 @@ ol li.current{
 	margin-left: 524px;
 }
 
-
-
-
-.keHu{
+.keHu {
 	height: 450px;
 	background-color: #ffffff;
 	text-align: center;
-
 }
-.keHuTitle{
+.keHuTitle {
 	margin: 35px 0;
 	text-align: center;
 	font-family: MicrosoftYaHei-Bold;
@@ -562,8 +573,7 @@ ol li.current{
 	color: #575757;
 }
 
-
-.keHu .keHuBox li{
+.keHu .keHuBox li {
 	float: left;
 	width: 371px;
 	height: 252px;
@@ -572,8 +582,7 @@ ol li.current{
     margin-bottom: 40px;
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
-	position: relative;
-	
+	position: relative;	
 }
 
 .review {
@@ -589,24 +598,22 @@ ol li.current{
     opacity: 0;
     -webkit-transition: all .2s linear;
     transition: all 1s linear;
-   
 }
-.introduce{
+.introduce {
 	margin-top: 120px;
 	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
 }
 
-
-.introduce i{
+.introduce i {
 	margin: 0 10px;
 }
 
-.introduce .color{
+.introduce .color {
 	color: #34b3e0;
 }
-.desc{
+.desc {
 	font-size: 12px;
 	line-height: 22px;
 	color: #f0f0f0;
@@ -628,18 +635,17 @@ ol li.current{
 
 }
 
-.keHu .keHuBox li .{
+.keHu .keHuBox li {
 	float: left;
 	width: 371px;
 	height: 252px;
     background: url("../images/ke_hu.png") no-repeat;
     margin-left: 21px;
     margin-bottom: 40px;
-    position: relative;
-	
+    position: relative;	
 }
 
-.keHu a{
+.keHu a {
 	display: inline-block;
 	width: 116px;
 	height: 36px;
@@ -649,19 +655,31 @@ ol li.current{
 	letter-spacing: 1px;
 	color: #b0b0b0;
 	border: 1px solid #ccc;
-
+	transition: all 0.5s;
 }
-.heZuo{
+
+.keHu a:hover {
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	background-color: #f1521a;
+	color: #fff;
+	border: 2px solid #f1521a;
+}
+
+.heZuo {
   height: 443px;
   background-color: #f5f5f5;
   overflow: hidden;
 }
 
-.heZuoKuang{
+.heZuoKuang {
   padding: 0 15px;
   box-sizing: border-box;
 }
-.heZuoTitle{
+
+.heZuoTitle {
   margin-top: 48px;
   margin-bottom:46px;
   font-family: MicrosoftYaHei-Bold;
@@ -671,10 +689,8 @@ ol li.current{
   color: #575757;
   text-align: center;
 }
-.heZuoAllBox{
 
-}
-.heZuoBox{
+.heZuoBox {
 	float: left;
 	width: 181px;
 	height: 130px;
@@ -682,15 +698,18 @@ ol li.current{
 	margin-right: 12px;
 	margin-bottom: 12px;
 }
-.heZuoLastBox{
+
+.heZuoLastBox {
 	margin-right: 0px;
 }
-.link{
+
+.link {
 	height: 88px;
 	background-color: #f5f5f5;
 	border: 1px solid #dcdcdc;
 }
-.link span{
+
+.link span {
 	display: inline-block;
 	margin:18px 0 16px 18px;
 	font-family: MicrosoftYaHei-Bold;
@@ -698,55 +717,62 @@ ol li.current{
 	color: #595757;
 	font-weight: 700;
 }
-.link ul{
+
+.link ul {
 	margin-left: 18px;
-	
 }
-.link li{
+
+.link li {
 	float: left;
 	margin-right: 24px;
-	
 }
 .link li a{
 	float: left;
 	font-size: 14px;
 	color: #595757;
 }
-.youDian{
+.youDian {
 	height: 133px;
 	background-color: #f5f5f5;
 	border: 1px solid #dcdcdc;
 	border-top: none;
 }
-.youDian ul{
+
+.youDian ul {
 	padding:40px 0 0 145px;
 
 }
+
 .youDian ul li{
 	float: left;
 	margin-right: 60px;
 }
-.youDianImg1,.youDianImg2,.youDianImg3,.youDianImg4{
+
+.youDianImg1,.youDianImg2,.youDianImg3,.youDianImg4 {
 	float: left;
 	width: 42px;
 	height: 42px;
 	margin-right: 7px;
 	background:url("../images/you_dian_zi.png") no-repeat;
-
 }
-.youDianImg2{
+
+.youDianImg2 {
 	background:url("../images/you_dian_zhi.png") no-repeat;
 }
-.youDianImg3{
+
+.youDianImg3 {
 	background:url("../images/you_dian_zhuan.png") no-repeat;
 }
-.youDianImg4{
+
+.youDianImg4 {
 	background:url("../images/you_dian_shou.png") no-repeat;
 }
-.youDianFont{
+
+.youDianFont {
 	float: left;
 }
-.youDian li span{
+
+.youDian li span {
 	float: none;
 	display: block;
 	height: 22px;
@@ -755,67 +781,70 @@ ol li.current{
 	color: #686666;	
 	margin-top: 3px;
 }
-.youDian li i{
+
+.youDian li i {
 	font-family: MicrosoftYaHei;
 	font-size: 12px;
-	letter-spacing: 0px;
 	color: #686666;
 }
-.modService{
+
+.modService {
 	height: 233px;
 	background-color: #f5f5f5;
 	overflow: hidden;
-
 }
-.modService ul{
+
+.modService ul {
 	margin-left: 38px;
 	margin-top:52px;
-
 }
-.modService li{
+
+.modService li {
 	float: left;
-
-
 }
-.modService{
+
+.modService {
 	height: 233px;
 	background-color: #f5f5f5;
-
 }
-.modService dl{
+
+.modService dl {
 	margin-right: 77px;
 	text-align: center;
-
 }
-.modService dt{
+
+.modService dt {
 	font-size: 18px;
 	height: 30px;
 	color: #595757;
-
 }
-.modService dd{
+
+.modService dd {
 	height: 30px;
 	font-size: 14px;
 	color: #b0b0b0;
 }
-.last{
-	height: 100px;
 
+.last {
+	height: 100px;
 }
-.modService .erWeiMa{
+
+.modService .erWeiMa {
     float: left;
     margin-top: 8px;
 	height: 120px;
 	padding-left: 40px;
 	border-left:2px solid #dfdfdf;
 }
-.erWeiMaImg{
+
+.erWeiMaImg {
 	float: left;
 	background-color: skyblue;
 	width: 120px;
 	height: 120px;
 }
-.erWeiMaJieShuo{
+
+.erWeiMaJieShuo {
 	float: left;
 	width: 120px;
 	height: 120px;
@@ -825,12 +854,38 @@ ol li.current{
 	text-align: center;
 	box-sizing: border-box;
 }
-.erWeiMaJieShuo span{
+
+.erWeiMaJieShuo span {
 	display: block;
 	height: 18px;
 }
-.buttom{
+
+.buttom {
 	background-color:#2e3a4b;
 	height: 35px;
 	width: 100%;
+}
+
+.fixedTool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedTool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedTool .fixedNow {
+    background-color: #c81623;
+    color: #fff;
 }

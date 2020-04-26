@@ -1,35 +1,36 @@
-.top{
+.top {
 	height: 130px;
 	background-color: #292929;
-	box-shadow: inset 0px -6px 0px 0px 
-		#1e1e1e;
+	box-shadow: inset 0px -6px 0px 0px #1e1e1e;
+	overflow:hidden;
 }
-.top .logo{
-	width: 85px;
-	height: 33px;
+
+.top .logo {
 	font-family: Eurofurenceregular;
 	font-size: 33px;
 	font-weight: normal;
 	line-height: 130px;
 	color: #ffffff;
-
 }
-.now{
+
+.now {
 	color: #58c93a  !important;
 
 }
 
-.nav{
+.nav {
 	position: relative;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
 	color: #58c93a;
 }
-.top ul li{
+
+.top ul li {
 	float: left;
 	
 }
+
 .top span {
     position: absolute;
     top: 124px;
@@ -38,8 +39,9 @@
 	height: 6px;
 	left: 0px;
 	background-color: #58c93a;
-    }
-.top ul li a{
+ }
+
+.top ul li a {
 	float: right;
 	width: 131px;
 	height: 130px;
@@ -52,55 +54,53 @@
 	font-stretch: normal;
 	color: #ffffff;
 	border: 1px solid  #1e1e1e;
-	box-shadow: inset 0px -6px 0px 0px 
-		#1e1e1e;
+	box-shadow: inset 0px -6px 0px 0px  #1e1e1e;
 	box-sizing: border-box;
 }
 
-
-.main{
-	height: 1318px;
+.main {
 	background-color: #ffffff;
 	border: solid 1px #e1e0e0;
 }
 
-.main ul{
+.mainBox {
+	display: flex;
 	margin-top: 80px;
-	/*padding-right: 25px;*/
+	overflow: hidden;
 }
-.main ul li .ab{
-	display: inline-block;
+
+.main  .ab {
+	float: left;
 	width: 468px;
 	height: 307px;
 	overflow: hidden;
+	margin-right: 42px;
 }
-.banner1:hover , .banner2:hover, .banner3:hover {
+
+.banner1:hover , 
+.banner2:hover, 
+.banner3:hover {
     transform: scale(1.1);
 
 }
-.banner1,.banner2,.banner3{
+
+.banner1,.banner2,.banner3 {
 	width: 468px;
 	height: 307px;
 	background-image: url("../images/banner1.png");
-	float: left;
-	margin-right: 42px;
 	overflow: hidden;
 }
-.banner2{
+
+.banner2 {
 	background-image: url("../images/banner2.png");	
 }
-.banner3{
+
+.banner3 {
 	background-image: url("../images/banner3.png");
 }
-.main ul li{
-	margin-bottom: 80px;
-}
 
-.right{
-	float: right;
 
-}
-.title{
+.title {
 	height: 51px;
 	font-family: Lato-Bold;
 	font-size: 22px;
@@ -112,7 +112,8 @@
 	padding-right: 0px;
 	margin-right: 82px;	
 }
-.mainBody{
+
+.mainBody {
 	margin-top: 55px;
 	width: 445px;
 	height: 114px;
@@ -126,10 +127,11 @@
 	margin-right: 20px;
 
 }
+
 .continue {
 	margin-top: 45px;
 	float: left;
-	width: 186px;
+	width: 188px;
 	height: 40px;
 	background-color: #ffffff;
 	border: solid 2px #c2c2c2;
@@ -139,6 +141,7 @@
 	letter-spacing: 1px;
 	color: #c2c1c1;
 	text-align: center;
+	cursor: pointer;
 	-webkit-transition: all .5s linear;
     transition: all .5s linear;
 }
@@ -161,66 +164,68 @@
 }
 
 
-.continue:hover {
-	
-
-}
-.last{
-	padding-right: 0;
+.mainSwitch {
+	margin-top: 82px;
 	height: 75px;
 	padding: 0 28px;
 	border-top:solid 1px #e1e0e0;
 	line-height: 75px;
 }
-.last a{
+
+.mainSwitch a {
 	font-family: Lato-Bold;
 	font-size: 18px;
 	font-weight: normal;
 	color: #818181;
 	display: inline-block;
 }
-.leftImg{
+
+.leftImg {
 	margin-right: 10px;
 
 }
-.rightImg{
+
+.rightImg {
 	margin-left: 10px;
 }
-.footer{
+
+
+.footer {
+	width: 100%;
 	height: 315px;
 	background-color: #f8f8f8;
 	text-align: center;
 	padding-top: 74px;
 	box-sizing: border-box;
 }
-.footer .one{
+
+.footer .one {
 	font-family: Eurofurenceregular;
 	font-size: 33px;
 	font-weight: normal;
 	color: #000;
 	height: 70px
 }
-.footer .two{
+
+.footer .two {
 	font-weight: normal;
 	color: #b1b1b1;
 	height: 50px
 	font-size:10px;
 }
-.footer .two a{
+
+.footer .two a {
 	font-weight: 700;
 	color: #939292;
 	height: 50px
 	font-size:10px;
 
 }
-.footer .fImg{
-	
+
+.footer .fImg {	
 	margin-top: 40px;
 	margin-left: 21px;
 	display: inline-block;
-	
-
-
 }
 
 
